@@ -79,7 +79,8 @@ overflow: hidden;
 text-align: center;
 padding: 50px;
 overflow: hidden;
-    padding: 60px 50px;
+max-width: 1200px;
+    padding: 50px;
     margin-right: auto;
     margin-left: auto
 
@@ -96,12 +97,18 @@ overflow: hidden;
 	font-size: 20px;
 	
 }
+@media (max-width: 800px) {
+	.first {
+		padding-top: 0;
+	}
+}
 
 
 
 .btn {
-	background-color: transparent;
-	color: white;
+	color: #fff;
+
+	background-color: #FFA07A;
 	padding:15px;
 	border:1px solid grey;
 	border-radius: 50px;
@@ -223,7 +230,12 @@ div.img a {
 }
 
 
+
 	}}
+	/*contact ME*/
+	footer {
+		background-color: #F6F6F6;
+	}
 	/*social-links*/
 	/*-------------------*/
 	.social-link {
@@ -239,7 +251,7 @@ div.img a {
     width: 40px;
     font-size: 1.6rem  !important;
    /* line-height: 2.3;*/
-    background-color: rgba(0,0,0,0.1);
+    background-color: transparent;
     border-radius: 50px;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
     -webkit-transition: all .3s ease-in-out;
@@ -256,7 +268,7 @@ div.img a {
 	color: #363D3F;
 }
 .fa-whatsapp {
-	color: #058905;
+	color: #01E675;
 }
 .fa-instagram {
 	color: #C11DAE;
